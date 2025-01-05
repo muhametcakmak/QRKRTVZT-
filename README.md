@@ -1,6 +1,33 @@
-Bu proje, kullanıcılardan alınan bilgiler doğrultusunda kişiselleştirilmiş QR kodlar oluşturan bir uygulamadır. QR kod, ad-soyad, iş yeri, pozisyon, telefon numarası, 
-e-posta adresi gibi bilgileri içerecek şekilde yapılandırılır ve tasarımı kullanıcı tercihlerine göre özelleştirilebilir. Örneğin, QR kodun renkleri kullanıcı tarafından belirlenebilir.
-Bu özellik, özellikle hızlı ve etkili bir şekilde iletişim bilgilerini paylaşmak isteyen profesyoneller için oldukça faydalıdır.
+# 📇 QRKARTVİZİT+
 
-Oluşturulan QR kod tarandığında, cihazın "Kişi Ekle" özelliği otomatik olarak açılır ve tüm bilgiler doldurulmuş şekilde kullanıcının cihazına eklenmeye hazır hale gelir.
-QR kod teknolojisi ile bilgi paylaşımını daha kolay ve erişilebilir hale getirmeyi hedeflemektedir.
+QRKARTVİZİT+, kullanıcıların kişisel bilgilerini alarak bir QR kodu oluşturan eğlenceli bir Python uygulamasıdır! 🎉
+
+## Özellikler ✨
+
+- **Kişisel Bilgi Girişi:** Kullanıcıdan ad, soyad, telefon numarası, çalıştığı yer ve iş gibi bilgileri alır. 📝
+- **QR Kodu Oluşturma:** Alınan bilgileri kullanarak bir QR kodu oluşturur. 📱
+- **Görüntüleme:** Oluşturulan QR kodunu anında görüntüleyebilirsiniz. 👀
+- **PNG Formatında Kaydetme:** QR kodu, ad ve soyad bilgilerinize göre isimlendirilmiş bir PNG dosyası olarak kaydedilir. 💾
+
+## Kullanım 📖
+
+1. **Programı Çalıştırın:** Uygulamayı başlatın. 🚀
+2. **Bilgilerinizi Girin:** Ekranda görünen menüde, istenen bilgileri eksiksiz ve doğru bir şekilde girin. 🖊️
+3. **QR Kodunuzu Görüntüleyin:** Bilgilerinizi girdikten sonra, QR kodunuz oluşturulacak ve ekranda görüntülenecektir. 🖼️
+4. **Kaydedin:** QR kodu, ad ve soyad bilgilerinize göre isimlendirilmiş bir PNG dosyası olarak kaydedilecektir. 📂
+
+## Gereksinimler ⚙️
+
+- **Python 3.x**
+- `qrcode` kütüphanesi
+- `pystyle` kütüphanesi
+- `opencv-python` kütüphanesi
+
+## Kurulum 🛠️
+
+Gerekli kütüphaneleri yüklemek için aşağıdaki komutu kullanabilirsiniz:
+
+```bash
+pip install qrcode pystyle opencv-python
+```
+
